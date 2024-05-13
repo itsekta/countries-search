@@ -109,7 +109,7 @@ export default function Calculator() {
         if (isNaN(calculatedResult)) {
           return "NaN";
         } else {
-          return "Error";
+          return "Infinity";
         }
       }
       return calculatedResult.toString();
